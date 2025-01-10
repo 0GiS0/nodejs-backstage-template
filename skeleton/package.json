@@ -1,0 +1,16 @@
+{
+  "name": "${{values.name}}",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "${{ values.owner | dump }}",
+  "license": "ISC",
+  "description": "${{ values.description | dump }}"
+}
