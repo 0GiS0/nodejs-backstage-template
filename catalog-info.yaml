@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: express-template
+  name: nodejs-backstage-template
   title: Node.js Template
   description: Scaffold a new Node.js project
   tags:
