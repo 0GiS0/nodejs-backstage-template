@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "${{ values.owner | dump }}",
+  "author": "${{ values.owner }}",
   "license": "ISC",
-  "description": "${{ values.description | dump }}"
+  "description": "${{ values.description }}"
 }
